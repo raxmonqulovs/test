@@ -1,0 +1,54 @@
+.hero {
+    background: #f9f6f1;
+    padding-top: 126px;
+}
+.hero__card h4 {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #000;
+    margin-bottom: 35px;
+}
+.hero__card h2 {
+    font-weight: 700;
+    font-size: 55px;
+    letter-spacing: 0.04em;
+    color: #000;
+    margin-bottom: 55px;
+}
+.hero__card button {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    width: 240px;
+    height: 55px;
+    background: #d7b399;
+    border: none;
+}
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+}
+.hero__card2 h4:nth-of-type(1){
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-align: right;
+    color: #000;
+}
+.hero__card2 h4:nth-of-type(2){
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #d84033;
+}
+.down {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 70px;
+}

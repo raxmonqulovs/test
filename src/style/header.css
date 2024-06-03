@@ -1,0 +1,25 @@
+.header {
+    padding-top : 61px;
+    background: #f9f6f1;
+
+}   
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+.header ul {
+    display: flex;
+    gap: 35px;
+}
+.logo__wrapper {
+    display: flex;
+    gap: 15px;
+}
+.header ul li {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
